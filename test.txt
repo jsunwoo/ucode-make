@@ -1,19 +1,12 @@
-int result;
-int input;
-void main(void) 
-{ 
-	int i; 	int n; 
-	n = 19; 		i = 1;
-	
-	while(i <= n) 	{ 		 
-		i = i + 2;		result = result + i; 
+void main ()
+{
+	int x;
+	int j;
+	x = 201;
+	j = -1;
+	while (x > 0) {
+		x = x / 2;
+		j = j + 1;
+		write(j);
 	}
-	if(i<8)
-	{
-		input = 1;
-	}
-
-
-	write(result); 
 }
-
